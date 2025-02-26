@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ответы</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="src/script.js" defer></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="mb-3" style="margin-top: 10px;">
+            <p class="lead mx-auto">
+                Архив со всеми материалами на первый семестр можно скачать по кнопке ниже.
+            </p>
+        </div>
+        <div class="d-flex gap-2 justify-content-center">
+            <button onclick="downloadFiles()" class="btn btn-primary d-inline-flex align-items-center" type="button">
+                Скачать файлы
+            </button>
+            <a id="materials" href="materials.zip" download style="display:none;"></a>
+        </div>
+        <div class="table-responsive small">
+            <table class="table table-striped table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Предмет</th>
+                        <th scope="col">Задания</th>
+                        <th scope="col">Ответы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Мат. Анализ</td>
+                        <td>
+                            <p>Коллоквиум</p>
+                            <p>Вопросы к экзамену</p>
+                            <a href="https://dodem.ru" target="_blank">Нормальный антиДемидович</a>
+                        </td>
+                        <td>Расписанные билеты экзамен</td>
+                    </tr>
+                    <tr>
+                        <td>Алгем</td>
+                        <td>Вопросы к экзамену</td>
+                        <td>Расписанные билеты экзамен</td>
+                    </tr>
+                    <tr>
+                        <td>Языки Програм-ния</td>
+                        <td>Летучки и ПЗ</td>
+                        <td>Решенные летучки</td>
+                    </tr>
+                    <tr>
+                        <td>ТПВИ</td>
+                        <td>Задания</td>
+                        <td>Готовые работы</td>
+                    </tr>
+                    <tr>
+                        <td>История</td>
+                        <td>Вопросы к зачету</td>
+                        <td>Некоторые доклады</td>
+                    </tr>
+                    <tr>
+                        <td>ОПК</td>
+                        <td>Вопросы к зачету</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ОИБ</td>
+                        <td>Темы для докладов</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
